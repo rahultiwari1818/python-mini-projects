@@ -42,9 +42,5 @@ def evaluate(expression):
     return eval('expression')
 
 
-    
-#if __name__=='__main__':
-#print(evaluate(input('eval exp:')))
 
-print(avg([1,2,3,4,5]))
     
