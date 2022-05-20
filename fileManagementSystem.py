@@ -129,14 +129,14 @@ def lucky_exe_ret():
     print("data successfully retrived.!!!!")
 
 
-
-print("hey\n this is food management system.")
-print("\n enter 1 for rahul \n enter 2 for lucky")
-name=int(input("enter plz:"))
-if name==1:
-    rahul()
-elif name==2:
-    lucky()
-else:
-    print("enter proper number.")
+if __name__=='__main__':
+    print("hey\n this is food management system.")
+    print("\n enter 1 for rahul \n enter 2 for lucky")
+    name=int(input("enter plz:"))
+    if name==1:
+        rahul()
+    elif name==2:
+        lucky()
+    else:
+        print("enter proper number.")
 
